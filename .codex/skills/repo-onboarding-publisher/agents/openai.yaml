@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Onboarding Publisher"
+  short_description: "Analyze repo and publish onboarding docs to Obsidian"
+  default_prompt: "Use $repo-onboarding-publisher to analyze the repo, write onboarding docs, and publish to Obsidian."

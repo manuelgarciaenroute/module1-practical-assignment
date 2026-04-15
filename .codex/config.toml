@@ -1,0 +1,13 @@
+[mcp_servers]
+[mcp_servers.MCP_DOCKER]
+command = 'docker.exe'
+args = ['mcp', 'gateway', 'run', '--profile', 'profile']
+
+[projects.'C:\Users\manuel.garcia\Desktop\CursoAgentesAI\module1-practical-assignment']
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.3-codex" = "gpt-5.4"
+
+[windows]
+sandbox = "elevated"
